@@ -17,6 +17,7 @@ public class CISConstants
     public static final String TRUE_RET = "true";
     public static final String FALSE_RET = "false";
 
+
     //Parameters for requests
     public static final String ITEM_NAME_PARAM = "menuItemName";
     public static final String ITEM_TYPE_PARAM = "menuItemType";
@@ -28,6 +29,7 @@ public class CISConstants
     public static final String PRICE_PARAM = "price";
     public static final String USER_ID_PARAM = "userID";
     public static final String DESC_PARAM = "description";
+    public static final String TOP_UP_AMOUNT = "topUpAmount";
 
     //Commands
     //create user
@@ -48,6 +50,12 @@ public class CISConstants
     public static final String DELETE_MENU_ITEM = "deleteMenuItem";
     public static final String GET_MENU = "getMenu";
     public static final String GET_USER = "getUser";
+    public static final String GET_ALL_ITEMS = "getAllItems";
+    public static final String TOP_UP = "topUp";
+    public static final String GET_MONEY = "getMoney";
+
+
+
 
     //Errors
     public static final String PORT_UNAVAIL = "is not available, likely because \nit's already being used by another " +

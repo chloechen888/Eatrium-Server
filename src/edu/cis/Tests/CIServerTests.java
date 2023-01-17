@@ -304,8 +304,8 @@ public class CIServerTests extends ConsoleProgram
         Request u2 = new Request(CISConstants.GET_USER);
         u2.addParam(CISConstants.USER_ID_PARAM, "qwert5");
         String itemString3 = "CISUser{userID='qwert5', name='latisha', " +
-                "yearLevel='y13', orders= Order{itemID='33a', " +
-                "type='breakfast', orderID='9078ppp'}, money=28.0}";
+                "yearLevel='y13', orders=[Order{itemID='33a', " +
+                "type='breakfast', orderID='9078ppp'}], money=28.0}";
         success = runTest(u2, false, itemString3);
         total++;
         if (success)
